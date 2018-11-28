@@ -10,4 +10,12 @@ router.get('/index', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/blog', function(req, res, next) {
+  res.render('blog', { title: 'Express' });
+});
+
+router.get('/matrix', function(req, res, next) {
+  res.render('matrix', { title: 'Express' });
+});
+
 module.exports = router;
